@@ -44,7 +44,19 @@ cd ELEN-6885-Project
 pip install -e .
 pip install -r requirements.txt
 ```
+
 If you have any trouble with pip install,  use `conda install -c conda-forge <package_name>`.
+
+Make sure those libraries match:
+```
+citylearn=2.1.2
+ipywidgets=8.1.8
+gym=0.25.2
+gymnasium=1.1.1
+numpy=1.26.4
+scikit-learn==1.0.2
+stable_baselines3==2.7.1
+```
 
 5. Testing CityLearn
 ```
